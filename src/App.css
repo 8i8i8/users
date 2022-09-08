@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.activate {
+  color: black;
+  background-color: blueviolet;
+}
+.table-fit {
+  width: 1px;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #d7b1d7;
+  background-color: #d7b1d7;
+}
+.input {
+  accent-color: red;
+  background-color: #d7b1d7;
+  color: blueviolet;
+}
+
+/* .form-control,
+.btn {
+  box-shadow: none !important;
+  outline: black !important;
+  border-color: black !important;
+}
+.form-control,
+.btn {
+  box-shadow: black !important;
+  outline: black !important;
+} */
+textarea:focus,
+input[type="text"]:focus,
+input[type="search"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #333;
+  border-color: #333;
+}
+
+.footer {
+  margin-top: auto;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.selected {
+  background-color: gray;
+  color: #d7b1d7;
+}
